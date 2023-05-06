@@ -49,7 +49,7 @@ const Tokenomics = () => {
       </motion.div>
 
       <motion.div
-        initial={{ x: 500, opacity: 0 }}
+        initial={{ x: 200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
         className=" bg-white border-2 border-black py-16 lg:py-24 flex flex-col items-center justify-center px-6 rounded-3xl w-full xl:w-auto mx-auto"
@@ -57,7 +57,7 @@ const Tokenomics = () => {
         <h1 className="text-3xl md:text-5xl text-outline logo uppercase text-center pb-5 ">
           Contract
         </h1>
-        <p className="text-md md:text-xl text-wrap font-semibold">0x7d8146cf21e8d7cbe46054e01588207b51198729</p>
+        <p className="text-md md:text-xl text-wrap text-center font-semibold">0x7d8146cf21e8d7cbe46054e01588207b51198729</p>
       </motion.div>
     </div>
   );

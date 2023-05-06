@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import {  AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 
 import Link from "next/link";
@@ -17,7 +17,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="bg-white max-w-7xl h-20 md:mx-auto border-2 border-t-0 border-black rounded-t-none rounded-2xl">
+    <nav className="bg-white max-w-7xl h-20 md:mx-auto border-2 border-t-0 border-black rounded-t-none rounded-2xl overflow-x-hidden">
       <div className="flex items-center justify-between w-full h-full px-8">
         <motion.div
           className=""
@@ -26,7 +26,7 @@ const Navbar = () => {
           transition={{ duration: 0.6, type: "spring", bounce: 0.5 }}
         >
           <Link href={"/"}>
-            <h1 className="text-primary text-3xl font-extrabold tracking-wider logo">
+            <h1 className="text-primary text-2xl md:text-3xl font-extrabold tracking-wider logo">
               $PRMAPE
             </h1>
           </Link>
@@ -52,11 +52,11 @@ const Navbar = () => {
         </motion.ul>
         <div className="hidden lg:flex">
           <motion.button
-            initial={{ x: 1000, y: -100, opacity: 0 , scale:1}}
+            initial={{ x: 1000, y: -100, opacity: 0, scale: 1 }}
             animate={{ x: 0, y: 0, opacity: 1 }}
             transition={{ duration: 0.6, type: "spring", bounce: 0.5 }}
             whileHover={{
-              scale: [0.7,.9]
+              scale: [0.7, 0.9],
             }}
             className="px-6 py-4 rounded-xl uppercase border-2 border-black-100 bg-primary text-white logo"
           >
@@ -67,7 +67,7 @@ const Navbar = () => {
           initial={{ x: 1000, y: -100, opacity: 0 }}
           animate={{ x: 0, y: 0, opacity: 1 }}
           transition={{ duration: 0.6, type: "spring", bounce: 0.5 }}
-          className="lg:hidden w-10 h-10 cursor-pointer"
+          className="lg:hidden md:w-10 md:h-10 w-7 h-7 cursor-pointer"
           onClick={() => setToggle(!toggle)}
         >
           <FaBars
@@ -86,7 +86,7 @@ const Navbar = () => {
             initial={{ x: 200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.4 }}
-            className="list-none flex flex-col items-center gap-6 w-full mt-[25%]"
+            className="list-none flex flex-col items-center gap-6 w-full mt-[25%] overflow-x-hidden"
           >
             {links.map((link) => (
               <li
@@ -99,7 +99,9 @@ const Navbar = () => {
                   setActive(link.name);
                 }}
               >
-                <a href={link.link} className="logo">{link.name}</a>
+                <a href={link.link} className="logo">
+                  {link.name}
+                </a>
               </li>
             ))}
           </motion.ul>
