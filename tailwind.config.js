@@ -4,7 +4,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
   ],
   theme: {
     extend: {
@@ -13,9 +12,9 @@ module.exports = {
         secondary: "#5454AD",
         "black-100": "#100d25",
         "black-200": "#090325",
-        "white": "#ffff",
+        white: "#ffff",
       },
     },
   },
   plugins: [],
-}
+};

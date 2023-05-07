@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <div className="bg-[url(/bg.jpg)] bg-cover bg-no-repeat bg-center overflow-x-hidden">
+      <div className="bg-[url(/bg.jpg)] bg-cover bg-no-repeat bg-center overflow-x-hidden ">
         <div className="mx-4">
           <Navbar />
           <section id="hero">
@@ -23,7 +23,7 @@ export default function Home() {
           </section>
         </div>
       </div>
-    <div className="bg-[url(/bgWhite.png)] bg-repeat bg-cover overflow-x-hidden bg-[#E7FDEC]">
+    <div className="bg-[url(/bgWhite.png)] bg-repeat bg-cover overflow-x-hidden bg-[#E7FDEC] ">
 
       <div className="mx-4">
 

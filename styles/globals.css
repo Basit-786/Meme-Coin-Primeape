@@ -10,6 +10,11 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .logo {
   font-family: "Alfa Slab One", cursive;
 }
@@ -22,7 +27,9 @@
   text-shadow: 2px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
-
+.t-shadow{
+  text-shadow: 2px 1px 0px #fff, 5px 4px 0px rgba(0,0,0,0.15);
+}
 .text-outline-color {
   color: black;
   -webkit-text-fill-color: #ee9e83;

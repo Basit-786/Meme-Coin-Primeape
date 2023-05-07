@@ -26,7 +26,7 @@ const Navbar = () => {
           transition={{ duration: 0.6, type: "spring", bounce: 0.5 }}
         >
           <Link href={"/"}>
-            <h1 className="text-primary text-2xl md:text-3xl font-extrabold tracking-wider logo">
+            <h1 className="text-primary t-shadow text-2xl md:text-3xl font-extrabold tracking-wider logo">
               $PRMAPE
             </h1>
           </Link>
