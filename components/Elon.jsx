@@ -19,7 +19,7 @@ const Elon = () => {
           the community. $PRMAPE plans to use the liquidity it raises because
           let’s be honest, when you get rugged so many times in crypto, there
           isn’t much of your own to invest. This Ape has to let the world know
-          it evolves during rough times so it will need 2% of your taxes to get
+          it evolves during rough times so it will need 3% of your taxes to get
           the efforts going.
         </p>
       </motion.div>
