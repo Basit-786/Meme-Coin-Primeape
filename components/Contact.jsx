@@ -19,7 +19,7 @@ const Contact = () => {
           href="#" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">
             <FaTelegramPlane className="text-5xl cursor-pointer bg-primary rounded-full p-2" />
           </a>
-          <a href="" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">
+          <a href="https://twitter.com/primeapecoin?t=92h4YHPjwlujMw6ueT17Iw&s=09" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">
             <FaTwitter className="text-5xl cursor-pointer bg-primary rounded-full p-2" />
           </a>
         </motion.div>
@@ -37,7 +37,7 @@ const Contact = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         className="">
-          <p className="text-lg lg:text-xl font-medium text-center ">team@prmape.com</p>
+          <p className="text-lg lg:text-xl font-semibold text-center text-slate-800 tracking-wider">team@prmape.com</p>
         </motion.div>
       </div>
       <Footer />

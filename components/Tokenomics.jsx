@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const Tokenomics = () => {
   return (
-    <div className="max-w-7xl mx-auto my-10 flex flex-col md:flex-row items-center justify-between flex-wrap gap-4 lg:gap-6 min-h-screen">
-      <div className="flex flex-col items-center justify-center gap-8 w-full lg:w-[350px]">
+    <div className="max-w-7xl mx-auto my-10 flex flex-col md:flex-row items-center justify-between flex-wrap gap-6 min-h-screen">
+      <div className="flex flex-col items-center justify-center gap-6 w-full lg:w-[320px]">
         <motion.div
-          initial={{ x: -300, opacity: 0 }}
+          initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-6 py-4 rounded-3xl w-full"
+          className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-3 py-4 rounded-3xl w-full"
         >
           {" "}
           <h1 className="text-3xl md:text-5xl text-outline-color logo uppercase text-center pb-5">
@@ -21,14 +21,14 @@ const Tokenomics = () => {
           </h3>
         </motion.div>
         <motion.div
-          initial={{ x: -300, opacity: 0 }}
+          initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-6 py-4 rounded-3xl w-full"
+          className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-3 py-4 rounded-3xl w-full"
         >
           {" "}
           <h1 className="text-3xl md:text-5xl text-outline-color logo uppercase text-center pb-5">
-            3%
+            9%
           </h1>
           <h3 className="text-xl md:text-3xl text-outline-color logo uppercase text-center pb-5">
             Tax
@@ -44,7 +44,7 @@ const Tokenomics = () => {
         <img
           src="/contract.png"
           alt=""
-          className="w-[350px] h-[350px] object-cover"
+          className="w-[250px] md:w-[330px]  h-[250px] md:h-[330px]  object-cover"
         />
       </motion.div>
 
@@ -52,12 +52,12 @@ const Tokenomics = () => {
         initial={{ x: 200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className=" bg-white border-2 border-black py-16 lg:py-24 flex flex-col items-center justify-center px-6 rounded-3xl w-full xl:w-auto mx-auto"
+        className=" bg-white border-2 border-black py-16 lg:py-20 flex flex-col items-center justify-center px-3 rounded-3xl w-full xl:max-w-[550px] xl:w-auto mx-auto"
       >
         <h1 className="text-3xl md:text-5xl text-outline logo uppercase text-center pb-5 ">
           Contract
         </h1>
-        <p className="text-md md:text-xl text-wrap text-center font-semibold">0x7d8146cf21e8d7cbe46054e01588207b51198729</p>
+        <p className="text-md md:text-xl text-wrap text-center font-semibold text-slate-700 ">$PRMAPE is a meme coin with no intrinsic value or expectation of financial return. There is no format team or roadmap. The coin is completely useless and for entertainment purposes only.</p>
       </motion.div>
     </div>
   );
