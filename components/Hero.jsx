@@ -11,10 +11,10 @@ const Hero = () => {
     <div className="flex items-center justify-center w-full min-h-screen max-w-7xl mx-auto">
       <motion.div 
       initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ duration: 0.5 }}
-      className="border-8 border-secondary/70 rounded-full  bg-black/70">
+      className="border-8 border-secondary/90 rounded-full  bg-black/70 mx-2">
         <div 
         
-        className="w-80 md:w-96 ">
+        className="w-[100%] sm:w-80 md:w-96 ">
           <Image src={logo} alt="logo" className="object-cover w-full h-full" />
         </div>
       </motion.div>

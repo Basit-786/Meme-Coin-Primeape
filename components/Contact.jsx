@@ -9,7 +9,7 @@ import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="border-[2px] border-black rounded-t-2xl overflow-hidden bg-white">
-      <div className="flex-col flex md:flex-row items-center justify-between gap-6 lg:gap-10 px-8 py-8 max-w-7xl mx-auto">
+      <div className="flex-col flex md:flex-row items-center justify-between gap-6 lg:gap-10 px-4 md:px-8 py-8 max-w-7xl mx-auto">
         <motion.div 
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -27,8 +27,8 @@ const Contact = () => {
           initial={{ scale:0, opacity: 0 }}
           whileInView={{ scale:1, opacity: 1 }}
           transition={{ duration: 0.6 }}
-        className="border-8 border-secondary/70 rounded-full  bg-black/60">
-          <div className="w-[250px]">
+        className="border-8 border-secondary/90 rounded-full  bg-black/60">
+          <div className="sm:w-[250px] w-[100%]">
             <img src='/logo.png' alt="logo" className="object-cover w-full h-full" />
           </div>
         </motion.div>

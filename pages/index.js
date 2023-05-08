@@ -23,26 +23,22 @@ export default function Home() {
           </section>
         </div>
       </div>
-    <div className="bg-[url(/bgWhite.png)] bg-repeat bg-cover overflow-x-hidden bg-[#E7FDEC] ">
+      <div className="bg-[url(/bgWhite.png)] bg-repeat bg-cover overflow-x-hidden bg-[#E7FDEC] ">
+        <div className="mx-4">
+          <section id="about">
+            <About />
+          </section>
+          <section id="elon">
+            <Elon />
+          </section>
 
-      <div className="mx-4">
-
-        <section id="about">
-          <About />
-        </section>
-        <section id="elon">
-          <Elon />
-        </section>
-
-        <section id="tokenomics">
-          <Tokenomics />
-        </section>
-
+          <section id="tokenomics">
+            <Tokenomics />
+          </section>
+        </div>
         <section id="contact">
           <Contact />
         </section>
-        </div>
-
       </div>
     </>
   );
