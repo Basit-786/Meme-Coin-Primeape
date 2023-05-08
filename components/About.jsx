@@ -23,15 +23,7 @@ const About = () => {
           What is PRMAPE
         </h1>
         <p className="text-lg md:text-xl leading-10 text-center text-slate-800">
-          Everyone loves Pokemon and especially PrimeApe which uses its anger to
-          fuel its energy. PrimeApe is going to make every rugged person in
-          crypto feel home. Don’t worry, this Ape is not going to leave your
-          side.
-          <br /> Elon love PrimeApe, Biden loves PrimeApe, Bezos loves PrimeApe
-          as well, who doesn’t love this beautiful Pokemon. When nervous, can’t
-          sleep at night, had a fight with wifey, close your eyes, take a deep
-          breath and think of this Ape. Apes come and go, PrimeApe stays
-          forever!!!!
+        Tired and frustrated getting rugged every moment in Crypto? Well, feel yourself home as this Ape uses its anger to fuel its energy. Elon, Biden, Bezos... you name it, every one loves PrimeApe. When nervous, can’t sleep at night, had a fight with wifey, close your eyes, take a deep breath and think of this Ape. Apes come and go, PrimeApe stays forever by your side!!!!
         </p>
       </motion.div>
     </div>
