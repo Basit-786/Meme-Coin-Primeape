@@ -16,7 +16,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
         className="flex items-center  justify-center  gap-4">
           <a 
-          href="#" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">
+          href="https://t.me/+UaNXKBKRL1ZmZjhl" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">
             <FaTelegramPlane className="text-5xl cursor-pointer bg-primary rounded-full p-2" />
           </a>
           <a href="https://twitter.com/primeapecoin?t=92h4YHPjwlujMw6ueT17Iw&s=09" target="_blank" className="hover:scale-90 transition ease-in-out duration-300">

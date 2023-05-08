@@ -57,7 +57,8 @@ const Tokenomics = () => {
         <h1 className="text-3xl md:text-5xl text-outline logo uppercase text-center pb-5 ">
           Contract
         </h1>
-        <p className="text-md md:text-xl text-wrap text-center font-semibold text-slate-700 ">$PRMAPE is a meme coin with no intrinsic value or expectation of financial return. There is no format team or roadmap. The coin is completely useless and for entertainment purposes only.</p>
+        <p className="text-md md:text-xl text-wrap text-center font-semibold text-slate-800 ">0x130fFCDc5bc7f269f75BaebE5236fC9F0CcB62a7</p>
+        <p className="text-sm md:text-lg text-wrap text-center text-slate-700 ">$PRMAPE is a meme coin with no intrinsic value or expectation of financial return. There is no format team or roadmap. The coin is completely useless and for entertainment purposes only.</p>
       </motion.div>
     </div>
   );
