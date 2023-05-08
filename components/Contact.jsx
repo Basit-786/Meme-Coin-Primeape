@@ -37,7 +37,7 @@ const Contact = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         className="">
-          <p className="text-lg lg:text-xl font-semibold text-center text-slate-800 tracking-wider">team@prmape.com</p>
+          <p className="text-lg lg:text-xl font-semibold text-center text-slate-800 tracking-wider">primeapecoin@gmail.com</p>
         </motion.div>
       </div>
       <Footer />
