@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Elon = () => {
   return (
-    <div className="bg-primary max-w-7xl mx-auto rounded-2xl py-8 px-6 flex  flex-wrap items-center justify-between my-32 mb-40 lg:mb-10 pb-60 sm:pb-80 lg:pb-20">
+    <div className="bg-primary max-w-7xl mx-auto rounded-2xl py-8 px-6 flex  flex-wrap items-center justify-between mt-20 mb-48 lg:mb-10 pb-60 sm:pb-80 lg:pb-20">
       <motion.div
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}

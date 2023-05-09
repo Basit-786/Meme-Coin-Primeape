@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex items-center justify-center lg:justify-between md:px-4 min-h-screen flex-wrap-reverse my-10 md:my-12 max-w-7xl mx-auto">
+    <div className="flex items-center justify-center lg:justify-between md:px-4 min-h-screen flex-wrap-reverse my-8 md:my-12 max-w-7xl mx-auto">
       <motion.div
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
@@ -18,7 +18,7 @@ const About = () => {
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: .65 }}
-        className="py-8 md:px-6  w-full lg:w-[52%]"
+        className="py-6 md:px-6  w-full lg:w-[52%]"
       >
         <h1 className="text-3xl md:text-5xl text-outline uppercase text-center pb-5 logo">
           What is PRMAPE
