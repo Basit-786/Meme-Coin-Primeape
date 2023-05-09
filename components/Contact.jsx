@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Footer } from ".";
 
 import { motion } from "framer-motion";
 
-import { FaTwitter } from "react-icons/fa";
+import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -15,6 +16,13 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="flex items-center  justify-center  gap-4"
         >
+            <a
+            href="https://t.me/primeapelaunch/3"
+            target="_blank"
+            className="hover:scale-90 transition ease-in-out duration-300"
+          >
+            <FaTelegramPlane className="text-5xl cursor-pointer bg-primary rounded-full p-2" />
+          </a>
           <a
             href="https://twitter.com/primeapecoin?t=92h4YHPjwlujMw6ueT17Iw&s=09"
             target="_blank"
