@@ -17,7 +17,7 @@ const Contact = () => {
           className="flex items-center  justify-center  gap-4"
         >
             <a
-            href="https://t.me/primeapelaunch/3"
+            href="https://t.me/primeapelaunch"
             target="_blank"
             className="hover:scale-90 transition ease-in-out duration-300"
           >
