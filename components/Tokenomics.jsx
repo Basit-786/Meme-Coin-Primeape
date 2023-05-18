@@ -8,9 +8,11 @@ const Tokenomics = () => {
     <div className="max-w-7xl mx-auto my-10 flex flex-col md:flex-row items-center justify-between flex-wrap gap-6 min-h-screen">
       <div className="flex flex-col items-center justify-center gap-6 w-full lg:w-[320px]">
         <motion.div
-          initial={{ x: -200, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.5 }}
+          viewport={{once: true}}
+
           className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-3 py-4 rounded-3xl w-full"
         >
           {" "}
@@ -22,9 +24,9 @@ const Tokenomics = () => {
           </h3>
         </motion.div>
         <motion.div
-          initial={{ x: -200, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.57 }}
           className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-3 py-4 rounded-3xl w-full"
         >
           {" "}
@@ -50,9 +52,9 @@ const Tokenomics = () => {
       </motion.div>
 
       <motion.div
-        initial={{ x: 200, opacity: 0 }}
+        initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         className=" bg-white border-2 border-black py-16 lg:py-20 flex flex-col items-center justify-center px-3 rounded-3xl w-full xl:max-w-[550px] xl:w-auto mx-auto"
       >
         <h1 className="text-3xl md:text-5xl text-outline logo uppercase text-center pb-5 ">

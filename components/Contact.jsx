@@ -13,10 +13,11 @@ const Contact = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.4 }}
+          viewport={{ once: true }}
           className="flex items-center  justify-center  gap-4"
         >
-            <a
+          <a
             href="https://t.me/primeapelaunch"
             target="_blank"
             className="hover:scale-90 transition ease-in-out duration-300"
@@ -34,8 +35,9 @@ const Contact = () => {
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          className="border-8 border-secondary/90 rounded-full  bg-black/60"
+          transition={{ duration: 0.4 }}
+          viewport={{ once: true }}
+          className="border-2 border-secondary rounded-full  bg-black/60"
         >
           <div className="sm:w-[250px] w-[100%]">
             <img
@@ -48,8 +50,8 @@ const Contact = () => {
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          className=""
+          transition={{ duration: 0.4 }}
+          viewport={{ once: true }}
         >
           <p className="text-lg lg:text-xl font-semibold text-center text-slate-800 tracking-wider">
             primeapecoin@gmail.com

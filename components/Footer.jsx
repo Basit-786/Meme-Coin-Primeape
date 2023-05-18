@@ -8,6 +8,7 @@ const Footer = () => {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
         className="text-md md:text-xl text-outline logo uppercase text-center py-5"
       >
         PRMAPE © 2023. ALL RIGHTS RESERVED.
