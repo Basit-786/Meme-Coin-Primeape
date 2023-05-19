@@ -27,6 +27,8 @@ const Tokenomics = () => {
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.57 }}
+          viewport={{once: true}}
+
           className=" bg-white border-2 border-black  flex flex-col items-center justify-center px-3 py-4 rounded-3xl w-full"
         >
           {" "}
@@ -42,6 +44,8 @@ const Tokenomics = () => {
         initial={{ scale: 0.3, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{once: true}}
+
         className="flex items-center justify-center w-full lg:w-auto"
       >
         <img
@@ -55,6 +59,8 @@ const Tokenomics = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{once: true}}
+
         className=" bg-white border-2 border-black py-16 lg:py-20 flex flex-col items-center justify-center px-3 rounded-3xl w-full xl:max-w-[550px] xl:w-auto mx-auto"
       >
         <h1 className="text-3xl md:text-5xl text-outline logo uppercase text-center pb-5 ">
